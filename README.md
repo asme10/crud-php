@@ -33,7 +33,6 @@ Ensure the following are installed on your system:
 
 Uset he following SQL query to create the "students" table:
 
-```
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(255) NOT NULL,
@@ -56,4 +55,3 @@ CREATE TABLE students (
 
 This is might help you to undertand basics about PHP-based web development.
 Learn More here [Mesuna](https://mesuna.netlify.app)
-
