@@ -29,6 +29,20 @@ Ensure the following are installed on your system:
 3. Place the project files in the "htdocs" directory of your XAMPP installation.
 4. Access the project via your web browser (e.g., http://localhost/your-project-folder).
 
+## Database Setup
+
+Uset he following SQL query to create the "students" table:
+
+```
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    age INT NOT NULL
+);
+
 ## Built With
 
 - **XAMPP:** A cross-platform web server solution stack package.
@@ -40,4 +54,6 @@ Ensure the following are installed on your system:
 
 ## Acknowledgments
 
-Special thanks to [Asme](https://mesuna.netlify.app) for creating this project and providing valuable insights into PHP-based web development.
+This is might help you to undertand basics about PHP-based web development.
+Learn More here [Mesuna](https://mesuna.netlify.app)
+
